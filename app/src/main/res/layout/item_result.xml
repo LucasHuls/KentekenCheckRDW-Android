@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="75dp"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="-9dp"
+        android:includeFontPadding="false"
+        android:paddingTop="0dp"
+        android:text="Merk"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:includeFontPadding="false"
+        android:paddingTop="0dp"
+        android:text="Type"
+        android:textSize="25sp"
+        android:textStyle="italic" />
+
+    <!-- Summary Section -->
+    <TextView
+        android:id="@+id/textViewSummaryTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Samenvatting"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <!-- Kenteken and Merk Category -->
+    <TextView
+        android:id="@+id/textViewCategoryBasicInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="Basis Informatie"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewKenteken"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kenteken"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewMerk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merk:"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Model: "
+        android:textSize="16sp" />
+
+    <!-- General Information -->
+    <TextView
+        android:id="@+id/textViewCategoryModelInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="Algemene Informatie"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewKleur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kleur: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewBouwjaar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bouwjaar: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewNieuwprijs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nieuwprijs: "
+        android:textSize="16sp" />
+
+    <!-- Afmetingen Category -->
+    <TextView
+        android:id="@+id/textViewCategoryDimensions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="Afmetingen"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewVoertuigLengte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voertuig Lengte: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewVoertuigBreedte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voertuig Breedte: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewVoertuigHoogte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voertuig Hoogte: "
+        android:textSize="16sp" />
+
+    <!-- Massa Category -->
+    <TextView
+        android:id="@+id/textViewCategoryMass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="Massa"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewMassaRijklaar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Massa Rijklaar: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewToegestaneMaxMassaVoertuig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toegestane max. massa voertuig: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewMaximaleLaadvermogen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Maximale laadvermogen: "
+        android:textSize="16sp" />
+
+    <!-- Trekkracht Category -->
+    <TextView
+        android:id="@+id/textViewCategoryTowing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="Trekkracht"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewAanhangerOngeremd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aanhanger ongeremd: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewAanhangerGeremd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aanhanger geremd: "
+        android:textSize="16sp" />
+
+    <!-- APK and Legal Info Category -->
+    <TextView
+        android:id="@+id/textViewCategoryAPKLegal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="APK en Juridische Informatie"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewVervaldatumAPK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vervaldatum APK: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewWokMelding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WOK melding: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewDatumEersteToelating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Datum eerste toelating: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewDatumEersteTenaamstellingInNederland"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Datum eerste tenaamstelling in Nederland: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewBrutoBPM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bruto BPM: "
+        android:textSize="16sp" />
+
+    <!-- Other Info Category -->
+    <TextView
+        android:id="@+id/textViewCategoryOther"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="Overige Informatie"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewInrichting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inrichting: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewAantalZitplaatsen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aantal zitplaatsen: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewWAMVerzekerd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WAM verzekerd: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewTellerstandoordeel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tellerstand oordeel:"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textViewTenaamstellenMogelijk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tenaamstellen mogelijk: "
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textViewAantalDeuren"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aantal deuren: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewAantalWielen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aantal wielen: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewPlaatsChassisnummer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Plaats chassisnummer: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewZuinigheidsclassificatie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zuinigheidsclassificatie: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewAantalCilinders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aantal cilinders: "
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewCilinderinhoud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cilinderinhoud: "
+        android:textSize="16sp" />
+</LinearLayout>
